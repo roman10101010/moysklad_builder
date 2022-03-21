@@ -1,0 +1,20 @@
+.select__wrapper {
+  position: relative;
+}
+
+.select__selected_branch {
+  height: 28px;
+  width: 300px;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 8px;
+  cursor: pointer;
+}
+
+.select__selected_branch > div {
+  width: calc(100% - 28px);
+}

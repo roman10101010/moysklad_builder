@@ -1,0 +1,16 @@
+.row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.row_branch {
+  margin: 0 8px 0 6px;
+  white-space: nowrap;
+}
+
+.row_task {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
