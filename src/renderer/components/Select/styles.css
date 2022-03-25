@@ -1,5 +1,7 @@
 .select__wrapper {
   position: relative;
+  display: inline-block;
+  margin-right: 16px;
 }
 
 .select__selected_branch {
@@ -17,4 +19,31 @@
 
 .select__selected_branch > div {
   width: calc(100% - 28px);
+}
+
+.select__dropdown {
+  position: absolute;
+  top: 32px;
+  width: 100%;
+  left: 0;
+  background: #fff;
+  z-index: 1;
+  padding: 0 8px;
+  box-sizing: border-box;
+  max-height: 200px;
+  overflow: auto;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+}
+
+.select__dropdown > div {
+  margin: 14px 0;
+}
+
+.select__dropdown > div:first-of-type {
+  margin-top: 7px;
+}
+
+.select__dropdown > div:last-of-type {
+  margin-bottom: 7px;
 }
