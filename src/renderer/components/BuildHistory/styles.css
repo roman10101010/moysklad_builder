@@ -1,0 +1,11 @@
+.history__row {
+  display: inline-grid;
+  grid-template-columns: 250px 100px;
+  column-gap: 25px;
+  margin-bottom: 5px;
+  height: 18px;
+}
+
+.history__header > div {
+  text-align: center;
+}
